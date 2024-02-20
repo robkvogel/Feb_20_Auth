@@ -6,6 +6,8 @@ Rails.application.routes.draw do
   resources "users"
 
   resources "sessions"
+  #below are the actions done automatically by resources "sessions"
+
   # get("/sessions", :controller => "sessions", :action => "index")
   # get("/sessions/:id", :controller => "sessions", :action => "show")
   # get("/sessions/new", :controller => "sessions", :action => "new")
